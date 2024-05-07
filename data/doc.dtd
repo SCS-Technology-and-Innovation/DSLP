@@ -1,5 +1,3 @@
-<?xml version="1.0" ?>
-<!DOCTYPE doc [
 <!ELEMENT document (author+,title,date)>
 <!ELEMENT author (name,org?)>
 <!ELEMENT name (#PCDATA)>
@@ -11,4 +9,3 @@
 <!ELEMENT month (#PCDATA)>
 <!ELEMENT day (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
-]>
