@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <author>
+    <name>Elisa</name>
+    <org>McGill</org>
+  </author>
+  <title>Example XML file</title>
+  <date>
+    <created>
+      <month>May</month>
+      <day>7</day>
+      <year>2024</year>
+    </created>
+    <updated>
+      <month>June</month>
+      <day>15</day>
+      <year>2024</year>
+    </updated>
+  </date>
+</document>
