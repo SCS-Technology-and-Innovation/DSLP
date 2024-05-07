@@ -12,7 +12,7 @@
 	</xs:complexType>
       </xs:element>
       <xs:element name="title" type="xs:string"/>
-      <xs:element name="date>
+      <xs:element name="date">
 	<xs:complexType>
           <xs:sequence>
             <xs:element name="created">
