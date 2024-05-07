@@ -1,9 +1,9 @@
 <!DOCTYPE document
 [
-<!ELEMENT document (author,title,date,)>
+<!ELEMENT document (author+,title,date)>
 <!ELEMENT author (name,org)>
 <!ELEMENT title (#PCDATA)>
-<!ELEMENT date (created,updated)>
+<!ELEMENT date (created,updated?)>
 <!ELEMENT created (month,day,year)>
 <!ELEMENT updated (month,day,year)>
 <!ELEMENT month (#PCDATA)>
