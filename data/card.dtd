@@ -1,0 +1,5 @@
+<!ELEMENT card (name,title,email,logo)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
