@@ -21,8 +21,10 @@ replacement = '@something.org'# what we want instead
 
 # check encodings, fix if necessary (M01)
 
-m = magic.open(magic.MAGIC_MIME_ENCODING)
-m.load()
+check = False # can be made to work on Linux and Mac, not Windows
+if check: 
+    m = magic.open(magic.MAGIC_MIME_ENCODING)
+    m.load()
 
 directory = 'data/batch/'
 
@@ -43,9 +45,12 @@ for filename in filelisting:
             # validate the original file contents (M02)
             valid = dtd.validate(etree.XML(filecontent))
             if valid:
-                enc = m.buffer(filecontent) # investigate the encoding
-                print(f'The encoding of {filename} appears to be {enc}', file = logfile)
-                xmlcontent = filecontent.decode(enc) # now we can get the decoded string
+                enc = 'utf-8'
+                if check:
+                    enc = m.buffer(filecontent) # investigate the encoding
+                    print(f'The encoding of {filename} appears to be {enc}', file = logfile)
+                else:
+                    xmlcontent = filecontent.decode(enc) # now we can get the decoded string
                 
                 # carry out replacements 
                 modcontent = re.sub(pattern, replacement, xmlcontent)
