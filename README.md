@@ -23,6 +23,6 @@ In picking your case study, please ensure your chosen case study contains **at l
 #### Final project
 
 Develop the project at your own pace within the allocated time frame, but be sure to make a plan (instead of putting it all off until the night before the deadline). It is recommended to submit 
-1. the *plan* to obtain feedback on it prior to starting the development;
+1. the *plan* to obtain feedback on it prior to starting the development (remember to assess risks);
 2. the *source code* (a Github or a Colab link or a ZIP of the necessary files) to obtain feedback on it prior to presenting;
-3. the *documentation* of the project in writing prior to the date of the presentation, in case something unexpected occurs the day of.
+3. the *documentation* of the project in writing prior to the date of the presentation, in case something unexpected occurs the day of (remember to evaluate your work, identifying its strengths, present shortcomings, and potential future work to generalize or improve it).
