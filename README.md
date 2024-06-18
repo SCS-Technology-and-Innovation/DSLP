@@ -14,4 +14,15 @@
 
 #### Case-study selection
 
+In picking your case study, please ensure your chosen case study contains **at least one element from each** of the three buckets below and a **minimum of seven elements in total** across all three buckets: 
+
+* *Content* bucket (5 options): dates / units / colors / images / orientation.
+* *Goal* bucket (4 options): template population / layout depends on content / something is localized / something is translated.
+* *Tech* bucket (6 options): encoding / parsing / regular expressions / file reading / file writing / directory listing.
+
 #### Final project
+
+Develop the project at your own pace within the allocated time frame, but be sure to make a plan (instead of putting it all off until the night before the deadline). It is recommended to submit 
+1. the *plan* to obtain feedback on it prior to starting the development;
+2. the *source code* (a Github or a Colab link or a ZIP of the necessary files) to obtain feedback on it prior to presenting;
+3. the *documentation* of the project in writing prior to the date of the presentation, in case something unexpected occurs the day of.
